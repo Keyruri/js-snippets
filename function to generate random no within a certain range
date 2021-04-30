@@ -1,6 +1,6 @@
 // input the min number as the first no and second no as the second number
 
 const randomInt = (min, max) =>
-  Math.trunc(Math.random() * (max - min) + 1) + min;
+ Math.Floor( Math.trunc(Math.random() * (max - min) + 1) + min;
 
 console.log(randomInt(1, 50));
